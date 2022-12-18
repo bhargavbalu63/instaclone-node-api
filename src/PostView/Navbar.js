@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="logo">
         <div className='logo-name'>
           <img src={require('../Images/instaclone.png')} alt='logo' />
-          <span>INSTACLONE</span>
+          <span>instaclone</span>
         </div>
       </div>
       <div className="camera-icon">
