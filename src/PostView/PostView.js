@@ -27,7 +27,7 @@ export default function PostVIew() {
         <div className='postview-container'>
             <Navbar />
             {!userData.length ?
-                <h1 className='while-loading'>Loading Posts...</h1>
+                <h1 className='while-loading'>waiting for posts</h1>
                 :
                 <div className='card-container'>
                     {userData.map((data, idx) => {
